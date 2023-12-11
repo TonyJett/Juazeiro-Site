@@ -1,0 +1,157 @@
+/* Estilos gerais para o corpo e parágrafos */
+body,p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Estilo para a foto do perfil na seção de destaque */
+.foto-perfil {
+    height: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+/* Estilos para as imagens nos cartões de times */
+.card-img-top,
+.card-img-top1 {
+    height: 700px;
+    width: 100%;
+    border: 2px solid #ddd;
+}
+/* Ajuste para o título "Inscrições aberta para os Times de VALORANT/FREE FIRE" */
+.titulosBrancos {
+    padding-top: 40px; /* Ajuste o valor do padding conforme necessário */
+    margin-top: -80px; /* Ajuste o valor do margin-top para subir o texto */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para o botão na seção do formulário */
+.btn-formulario {
+    background-color: transparent; /* Cor de fundo transparente */
+    border-color: transparent; /* Cor da borda transparente */
+    color: #fff; /* Nova cor do texto */
+}
+
+.btn-formulario:hover {
+    background-color: rgba(18, 35, 61, 0.1); /* Cor de fundo ao passar o mouse com transparência */
+    border-color: transparent; /* Cor da borda ao passar o mouse */
+}
+
+/* Estilos para o botão de contato na barra de navegação */
+.btn-contato-nav {
+    background-color: #193654; /* Cor de fundo do botão */
+    border: 1px solid #193654; /* Cor da borda do botão */
+    transition: background-color 0.3s, border-color 0.3s; /* Adiciona uma transição suave */
+}
+
+.btn-contato-nav:hover {
+    background-color: #12233d; /* Cor de fundo ao passar o mouse */
+    border: 1px solid #12233d; /* Cor da borda ao passar o mouse */
+}
+
+/* Estilos para a barra de navegação */
+.navbar-nav {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Ajuste a posição vertical do título na seção do formulário */
+.titulosBrancos {
+    margin-top: -20px; /* Altere o valor conforme necessário para ajustar a posição vertical */
+    padding-top: 20px; /* Adicione um espaçamento superior adicional se necessário */
+}
+
+/* Estilos para parágrafos */
+.paragrafoBrancos {
+    color: white !important;
+}
+
+/* Estilos para a cor primária de fundo */
+.corPrimaria {
+    background-color: rgb(9, 113, 197);
+}
+
+/* Estilos para itens de menu */
+.itemMenu {
+    color: white;
+}
+
+/* Estilos para a caixa de membros nos times */
+.member-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Estilos para as imagens dos membros nos times */
+.member-box img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos para parágrafos nas caixas de membros */
+.member-box p {
+    margin-top: 10px;
+    transform: translateX(15px);
+    transition: transform 0.5s ease-in-out;
+    font-weight: bold;
+}
+
+/* Estilos para a cor secundária */
+.corSegundaria {
+    text-decoration: underline;
+    color: rgb(22, 80, 107);
+}
+
+/* Adicionando estilo para a seção de patrocinadores */
+#patrocinadores {
+    background-color: #ffffff; /* Cor de fundo para a seção de patrocinadores */
+    padding: 50px 0; /* Espaçamento interno */
+}
+
+/* Estilos para as imagens dos patrocinadores */
+#patrocinadores img {
+    width: auto;
+    max-width: 150px; /* Defina a largura máxima desejada para as imagens quadradas */
+    height: auto;
+    max-height: 150px; /* Defina a altura máxima desejada para as imagens quadradas */
+    margin: 10px; /* Adicione um espaçamento entre as imagens */
+    border-radius: 50%;
+}
+
+.social-icon {
+    width: 40px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */
+}
+
+#contact-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details-modal {
+    text-align: center;
+    color: rgb(0, 166, 255); /* Ajuste a cor do texto aqui */
+}
+
+.contact-details-modal a {
+    display: block;
+    margin: 10px 0;
+    color: #03a9f4; /* Ajuste a cor do link aqui */
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+    .titulosBrancos {
+        padding-top: 20px;
+        margin-top: 0;
+    }
+}

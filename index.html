@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assests/Logo Colorida.ico" type="image/x-icon">
+    <title>JUAZEIRO E-SPORTS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJFO9F9E7KTOInFV5kx2M36dUpBPMNl"
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assests/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#193654">
+        <a class="navbar-brand" href="#" style="color:#f8f8f8">
+            <i class="fas fa-gamepad"></i> JUAZEIRO E-SPORTS
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a href="#projetos" class="nav-link btn-contato btn-contato-nav" style="color:white; margin-bottom: -3px;"> Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#sobre-mim" class="nav-link btn-contato btn-contato-nav" style="color:white">Sobre a Organização</a>
+                    </li>
+                    <li>
+                        <a href="#depoimentos" class="nav-link btn-contato btn-contato-nav" style="color:white">Objetivos</a>
+                    </li>
+                    <li>
+                        <button onclick="openContactModal()" class="nav-link btn-contato btn-contato-nav" style="color:white;">Contato</button>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal" id="contact-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeContactModal()">&times;</span>
+            <div class="contact-details-modal">
+                <h2>Entre em Contato!!!!</h2>
+                <p>Conecte-se conosco nas redes sociais!!</p>
+                <a href="https://discord.gg/JxwccEUR" target="_blank">
+                    <img src="assests/discord.png" alt="Discord" class="social-icon" onclick="redirectToDiscord()">
+                    <p>Discord</p>
+                </a>
+                <a href="https://www.instagram.com/juazeiroesports.gg/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <img src="assests/inst.jpg" alt="Instagram" class="social-icon" onclick="redirectToInstagram()">
+                    <p>Instagram</p>
+                </a>
+            </div>
+        </div>
+    </div>    
+    
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="assests/Logo Colorida.ico" class="foto-perfil">
+            <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">JUAZEIRO E-SPORTS</h1>
+            <p class="lead" style="color:white !important;">JUAZEIRO E-SPORTS, Organização focadas em Games!
+            </p>
+            </a>
+        </div>
+    </section>
+    <!-- Projects -->
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Times Da Organização</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top1"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="assests/Imagem do WhatsApp de 2023-11-24 à(s) 23.58.19_ba7218b7.jpg"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                            </p>
+                            <ul>
+                                <li>Time Masculino</li>
+                                <li>Line Valorant</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!-- Adicione o atributo data-toggle e data-target para abrir o modal -->
+                                    <a href="#" class="btn btn-sm btn-outline-success" data-toggle="modal"
+                                        data-target="#myModalTimeMasculino">Ver Membros</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Sobre o time</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]"
+                            src="assests/Imagem do WhatsApp de 2023-11-28 à(s) 10.28.42_1b8e54c6.jpg"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">
+                            </p>
+                            <ul>
+                                <li>Time Masculino</li>
+                                <li>Line Free Fire</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!-- Adicione o atributo data-toggle e data-target para abrir o modal -->
+                                    <a href="#" class="btn btn-sm btn-outline-success" data-toggle="modal"
+                                        data-target="#myModalTimeMasc">Ver Membros</a>
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Sobre o time</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Time Masculino -->
+    <div class="modal fade" id="myModalTimeMasculino" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelTimeMasculino" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelTimeMasculino">Membros do Time Masculino</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Aqui estão os membros do time masculino:</p>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="member-box">
+                                <img src="assests/Imagem do WhatsApp de 2023-11-24 à(s) 23.58.19_ba7218b7.jpg" alt="Membro 1">
+                                <p>Antony 1</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="member-box">
+                                <img src="assests/Imagem do WhatsApp de 2023-11-24 à(s) 23.58.20_9c3e8341.jpg" alt="Membro 2">
+                                <p>Michael 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalTimeMasc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelTimeMasc" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabelTimeMasc">Membros do Time Masculino</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="membrosModal" class="modal">
+                    <div class="modal-content">
+                        <div class="member-box">
+                            <img src="caminho-para-imagem-1.jpg" alt="Membro 1">
+                            <p>Membro 1</p>
+                        </div>
+                        <div class="member-box">
+                            <img src="caminho-para-imagem-2.jpg" alt="Membro 2">
+                            <p>Membro 2</p>
+                        </div>
+                        <div class="member-box">
+                            <img src="caminho-para-imagem-3.jpg" alt="Membro 3">
+                            <p>Membro 3</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<section class="jumbotron text-center corPrimaria" id="sobre-mim">
+    <div class="container">
+        <h2 class="jumbotron-heading titulosBrancos">Sobre a Organização</h2>
+        <p class="lead paragrafoBrancos">Juazeiro E-sport, Organização de Esports, ingressou no cenário competitivo desde sua fundação em 2021, inicialmente com os projetos de Free Fire e após Valorant, modalidades de destaque no universo de Games & Esports nacional e internacional.<br>Somos uma empresa com personalidade.Uma representação real de nossos valores, com compromisso de investir em nossa equipe administrativa, jogaadores e criadores de contepudos.Visando levar nossa marca e dos nossos parceiros adiante valorizando a performance todo o cenário, trazendo oportunidades internamente e externamente</p>
+    </div>
+</section>
+
+<section Id="depoimentos">
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Objetivos</h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">Visibilidade<br>Levar o nome da Juazeiro E-sports ao cenário de esports estudual e nacional, aumentando nossa visibilidade e contruindo nossa marca.</p>
+            </blockquote>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">Reconhecimento<BR>Estabelecer nossa presença como um competiddor sério e repeitável no cenário local.</p>
+            </blockquote>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">Marketing e Divulgação<BR>Oferecer a você, nosso valioso partrocinador, oprtunidades de Marketing e divulgação através da exposição de sua marca em nossos uniformes, redes sociais e outros canais</p>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+<section id="Formulario" class="corPrimaria">
+    <div class="container-fluid text-center">
+        <h3 class="titulosBrancos">
+           Inscrições aberta para os Times de VALORANT/FREE FIRE
+        </h3>
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-arrow-right mr-2"></i>
+            <a href="contact.html" class="btn btn-dark my-2 btn-formulario">
+                Clique Aqui !
+             </a>
+    </div>
+</section>
+
+<section id="patrocinadores" class="corPrimaria">
+    <div class="container-fluid text-center">
+        <h3  class="corSegundaria">Patrocinadores</h3>
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.lojacondutec.com/material-eletrico-oferta/?gclid=CjwKCAiAg9urBhB_EiwAgw88mWL_d-w8wv1Dy3e-t1O_HHRXKJCdB1NEbGEx8n2lSFLID4xfm7dJShoCU4UQAvD_BwE" target="_blank">
+            <img src="assests/Captura de tela 2023-11-30 102459.png" alt="Patrocinador 1" class="img-fluid mx-2">
+            </a>
+            <img src="assests/2b12e064-7206-4ad5-9578-4fd3ab2568a4.JPG" alt="Patrocinador 2" class="img-fluid mx-2">
+            <a href="https://jrtelecom.com.br" target="_blank">
+            <img src="assests/ELEMENTOS_LOGO.png" alt="Patrocinador 3" class="img-fluid mx-3">
+            </a>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
+
